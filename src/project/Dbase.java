@@ -57,7 +57,7 @@ public class Dbase {
 			e.printStackTrace();
 		}
 		if (index.equals("Primary")) {
-			System.out.println("records in linear "+records);
+			System.out.println("records in linear search "+records);
 			double result = (double)(records/2);
 			return Double.toString(result);
 		}

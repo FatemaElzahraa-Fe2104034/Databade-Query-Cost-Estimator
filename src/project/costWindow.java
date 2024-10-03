@@ -37,7 +37,7 @@ public class costWindow extends JFrame {
 	}
 
 	/**
-	 * Create the frame.
+	 * Create the frame
 	 */
 	public costWindow() {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);

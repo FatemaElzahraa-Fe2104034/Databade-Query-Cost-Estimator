@@ -66,8 +66,8 @@ public class JoinCost extends JFrame {
 		try {
 			table.setModel(new DefaultTableModel(
 				new Object[][] {
-					{"Nested-loop", db.nestedLoop()},
-					{"Sort-merge ", db.sortMerge()},
+					{"Nested-loop join", db.nestedLoop()},
+					{"Sort-merge join ", db.sortMerge()},
 				},
 				new String[] {
 					"Query ExecutionPlan", "Cost"
